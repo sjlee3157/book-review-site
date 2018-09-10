@@ -1,0 +1,58 @@
+<!-- You will structure the content given in the content folder with semantic html tags providing meaning to the content.
+
+Each page must have a:
+-  Doctype, head, and body of an HTML
+-  A header/title Section
+-  Navigation section with links for the site
+-  A footer with a copyright notice and your name -->
+
+<!-- The homepage of your site is named `index.html`. This page will have:
+-  A header section with the title for your book review site
+-  A section for navigation
+-  A main content section with an unordered list of the top-5 book images (see the images folder)
+  - Each image should link to their page in Amazon.com or a book review page. -->
+
+<!-- http://blog.teamtreehouse.com/use-html5-sectioning-elements -->
+
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <title>Clean, Confident Ruby</title>
+    </head>
+    <body>
+      <header>
+        <h1>Clean, Confident Ruby</h1>
+        <h2>A dirty, mumbly Ruby book review site</h2>
+        <nav>
+          <header>
+            <p><a href="index.html">Home</a></p>
+          </header>
+          <nav>
+            <ol>
+              <li><a href="eloquent-ruby.html">Reviews: Eloquent Ruby</a></li>
+              <li><a href="contact.html">Contact Us!</a></li>
+          </ol>
+        </nav>
+      </header>
+      <main>
+        <article>
+          <header>
+            <h2>CCR's Top-5 Listicle</h2>
+            <p>by Clean, Confident staff</p>
+            <p>September 10th, 2018</p>
+          </header>
+          <ul>
+            <li><a href="https://railsware.com/blog/2017/11/09/best-books-to-learn-ruby-on-rails/" target="_blank"><img src="images/cover-clean_ruby.jpg" alt="Book cover image: Clean Ruby"></a></li>
+            <li><a href="https://www.amazon.com/Confident-Ruby-Patterns-Joyful-Coding-ebook/dp/B00ETE0D2S" target="_blank"><img src="images/cover-confident_ruby.jpg" alt="Book cover image: Confident Ruby"></a></li>
+            <li><a href="eloquent-ruby.html" target="_blank"><img src="images/cover-eloquent_ruby.jpg" alt="Book cover image: Eloquent Ruby"></a></li>
+            <li><a href="https://www.goodreads.com/book/show/16720439-ruby-science" target="_blank"><img src="images/cover-ruby_science.jpg" alt="Book cover image: Ruby Science"></a></li>
+            <li><a href="https://www.goodreads.com/book/show/3892688-the-well-grounded-rubyist" target="_blank"><img src="images/cover-well_grounded_rubyist.jpg" alt="Book cover image: The Well-Grounded Rubyist"></a></li>
+          </ul>
+        </article>
+      </main>
+      <footer>
+        <p>Copyright 2018 Sammi-Jo Lee</p>
+      </footer>
+    </body>
+  </html>
